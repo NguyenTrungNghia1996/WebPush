@@ -19,7 +19,7 @@ const subscription = async () => {
   console.log(subscription);
 
   // Send Notification
-  await fetch("https://php196.herokuapp.com/subscription", {
+  await fetch("/subscription", {
     method: "POST",
     body: JSON.stringify(subscription),
     headers: {
