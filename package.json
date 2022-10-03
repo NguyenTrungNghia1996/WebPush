@@ -17,6 +17,7 @@
     "http": "0.0.1-security",
     "https": "^1.0.0",
     "request": "^2.88.2",
+    "uniqid": "^5.4.0",
     "web-push": "^3.4.3"
   }
 }

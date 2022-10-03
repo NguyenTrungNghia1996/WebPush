@@ -4,6 +4,11 @@ const router = Router();
 const webpush = require("../webpush");
 let pushSubscripton;
 
+router.post("/sign_up",async (req,res)=>{
+  console.log(req.body)
+  res.send("test")
+})
+
 router.post("/subscription", async (req, res) => {
   pushSubscripton = req.body;
   console.log(pushSubscripton);
